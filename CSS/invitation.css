@@ -1,0 +1,55 @@
+@charset "ISO-8859-1";
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    padding: 0 20px;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../Assets/img1.jpg);
+    background-size: cover;
+}
+
+.hero {
+    max-width: 1130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero .card {
+    width: calc(33% - 13px);
+    border-radius: 3px;
+    background: #fff;
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
+}
+
+.hero .card img {
+    width: 100%;
+}
+
+.hero .card .content {
+    padding: 10px 20px 22px 20px;
+}
+
+.card .content .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .row .details span {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.content .row .details p {
+    color: #333;
+    font-size: 17px;
+    font-weight: 400;
+}
