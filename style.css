@@ -581,25 +581,3 @@ a {
     font-size: 12px;
     letter-spacing: 0pt;
 }
-
-.editation {
-    padding-left: 250px;
-    height: 100px;
-    width: 100%;
-    /* background-color: rgba(224, 17, 17, 0.377); */
-}
-
-.editation button {
-    margin-left: 420px;
-}
-
-@media screen and (max-width: 600px) {
-    .editation input {
-        display: block;
-        background-color: rgb(144, 208, 238);
-    }
-    .editation button {
-        margin-left: auto;
-        /* margin-right: 180px; */
-    }
-}

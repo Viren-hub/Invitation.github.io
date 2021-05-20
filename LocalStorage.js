@@ -7,6 +7,7 @@ function edit() {
         "FemaleName": document.getElementById("female").value,
         "venue": document.getElementById("place").value,
         "Date": document.getElementById("date").value,
+        "Mobile": document.getElementById("mob").value
 
     }
 
@@ -17,4 +18,5 @@ function edit() {
     document.getElementById("Name2").innerHTML = newData.FemaleName;
     document.getElementById("city").innerHTML = newData.venue;
     document.getElementById("DateNow").innerHTML = newData.Date;
+    document.getElementById("mobile").innerHTML = newData.Mobile;
 }

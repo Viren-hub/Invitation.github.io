@@ -28,11 +28,13 @@
     <div class="sakura-falling"></div>
     <img src="https://i.imgur.com/dGOOfnA.png" alt="image-top-right" class="top-right-decoration">
     <img src="https://i.imgur.com/t6ffnbn.png" alt="image-top-left" class="top-left-decoration">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
     <section id="media"></section>
     <div class="wrap">
         <div class="title">
             <h1>Happy BirthDay </h1>
-            <h1 id="Name1">Dnyaneshwar</h1>
+            <h1 id="Name1">Anay</h1>
 
             <h3>God Bless you..!</h3>
             <p>
@@ -54,24 +56,34 @@
         </a>
     </div>
     <p class="footer">
-        Can't wait to celebrate auspicious moment of our family with you! <br> Just a ping away for any queries: +91 99751 96336
+        Can't wait to celebrate auspicious moment of our family with you! <br> Just a ping away for any queries: +91<span id="mobile">  99751 96336</span>
 
         <span></span>
     </p>
 
     <div id="myDIV" class="editation">
-        <label for="">BirthDay Boy/Girl:</label>
-        <input id="name" type="text">
-        <Label>Date :</Label> <input id="date" type="date"> Place:
-        </label><input id="place" type="text">
-        <button onclick="editBirthDay()">Submit</button><label for=""><label for="">
+        <div class="mb-3">
+            <input type="text" id="name" class="form-control" id="formGroupExampleInput2" placeholder="Enter Boy/Girl Name">
+        </div>
+        <div class="mb-3">
+            <input type="date" id="date" class="form-control" id="formGroupExampleInput2" placeholder="Date">
+        </div>
+        <div class="mb-3">
+            <input type="text" id="place" class="form-control" id="formGroupExampleInput2" placeholder="Place">
+        </div>
+        <div class="mb-3">
+            <input type="text" id="mob" class="form-control" id="formGroupExampleInput2" placeholder="Mobile Number">
+        </div>
+        <div class="col-12">
+            <button onclick="editBirthDay()" type="submit" class="btn btn-primary">Submit</button>
+        </div>
     </div>
 
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
     <script src='https://cdn.jsdelivr.net/gh/timoschaefer/jQuery-Sakura/jquery-sakura.min.js'></script>
     <script src="./script.js"></script>
     <script src="./BdyLocal.js"></script>
-    
+
 
 </body>
 
